@@ -16,3 +16,5 @@ with st.form("features"):
     idade = st.number_input ("Qual a sua idade nesse momento?", value = 0)
     enviar = st.form_submit_button("Enviar")
     
+streamlit run
+streamlit run main.py
