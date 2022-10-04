@@ -15,3 +15,4 @@ with st.form("features"):
     fat_pred_diab = st.number_input ("Qual o seu fator de predisposição à diabetes? (baseado em histórico familiar)", value = 0.0, format = "%f")
     idade = st.number_input ("Qual a sua idade nesse momento?", value = 0)
     enviar = st.form_submit_button("Enviar")
+    
